@@ -11,6 +11,6 @@ public class Site {
 
     @GetMapping("/message/{name}")
     public String getMessage(@PathVariable("name") String name) {
-        return "Welcome to the System " + name;
+        return "Welcome to the Assignment System " + name;
     }
 }
